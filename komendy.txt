@@ -1,10 +1,1 @@
-.htmlvalidate.json {
-  "extends" : [
-    "html-validate:recommended"
-  ] ,
-
-  "rules" : {
-    "close-order" : "error" ,
-    "void" : [ "warn" ,  { "style" : "pomiń" } ]
-  }
-}
+html-validate *.html
